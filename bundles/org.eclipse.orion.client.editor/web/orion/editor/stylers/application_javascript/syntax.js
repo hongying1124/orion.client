@@ -36,6 +36,7 @@ define("orion/editor/stylers/application_javascript/syntax", ["orion/editor/styl
 		id: "orion.js", //$NON-NLS-0$
 		contentTypes: ["application/javascript"], //$NON-NLS-0$
 		patterns: [
+			{include: "orion.erl#method"}, 
 			{
 				include: "orion.c-like" //$NON-NLS-0$
 			}, {
