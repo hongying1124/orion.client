@@ -124,22 +124,13 @@
 	color: #0000c0;
 }
 
-.arrow {
-	color: #AD66D5;
-	font-weight: bold;
-}
-
 .hyphen {
 	color: #9F3Ed5;
 	font-weight: bold;
 }
 
-.varXq {
+.variable.other {
 	color: #E038AD;
-}
-
-.sign { /* ::, :, | and so on */
-	color: #476BD6;
 }
 
 .method { /* For method names: ***() */

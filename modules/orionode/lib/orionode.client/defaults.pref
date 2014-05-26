@@ -5,7 +5,6 @@
 		"edit/content/imageViewerPlugin.html":true,
 		"edit/content/jsonEditorPlugin.html":true,
 		"plugins/webEditingPlugin.html":true,
-		
 		"plugins/languages/html/htmlPlugin.html":true,
 		"plugins/languages/java/javaPlugin.html":true,
 		"plugins/languages/php/phpPlugin.html":true,
@@ -14,8 +13,8 @@
 		"plugins/languages/css/cssPlugin.html":true,
 		"plugins/languages/xml/xmlPlugin.html":true,
 		"plugins/languages/yaml/yamlPlugin.html":true,
-		"plugins/languages/xq/xqPlugin.html":true,
-		"plugins/languages/erl/erlPlugin.html":true,
+		"plugins/languages/xquery/xqueryPlugin.html":true,
+		"plugins/languages/erlang/erlangPlugin.html":true,
 		"plugins/pageLinksPlugin.html":true,
 		"plugins/csslintPlugin.html": true,
 		"javascript/plugins/javascriptPlugin.html":true,
