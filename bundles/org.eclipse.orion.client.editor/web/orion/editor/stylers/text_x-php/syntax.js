@@ -44,10 +44,10 @@ define("orion/editor/stylers/text_x-php/syntax", ["orion/editor/stylers/lib/synt
 		contentTypes: ["text/x-php"],
 		patterns: [
 			{	
-				include: "orion.erl#method"
+				include: "orion.erlang#method"
 			},{
 				match: "\\$[a-zA-z0-9_]+(?=\\[|\\)|\\s|;|=|<|>|!|\\?>)",
-				name: "varXq.php" 
+				name: "variable.other.php" 
 			},{
 				include: "orion.c-like"
 			},{
