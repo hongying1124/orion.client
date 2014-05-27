@@ -124,6 +124,29 @@
 	color: #0000c0;
 }
 
+.arrow {
+	color: #AD66D5;
+	font-weight: bold;
+}
+
+.hyphen {
+	color: #9F3Ed5;
+	font-weight: bold;
+}
+
+.varXq {
+	color: #E038AD;
+}
+
+.sign { /* ::, :, | and so on */
+	color: #476BD6;
+}
+
+.method { /* For method names: ***() */
+	color: #FFA500;
+}
+
+
 /* CodeMirror styles */
 .cm-meta { color: #00008F; }
 .cm-keyword { font-weight: bold; color: #7F0055; }

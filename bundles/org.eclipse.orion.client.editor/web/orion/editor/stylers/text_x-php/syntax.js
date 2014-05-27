@@ -43,9 +43,14 @@ define("orion/editor/stylers/text_x-php/syntax", ["orion/editor/stylers/lib/synt
 		id: "orion.php",
 		contentTypes: ["text/x-php"],
 		patterns: [
-			{
+			{	
+				include: "orion.erlang#method"
+			},{
+				match: "\\$[a-zA-z0-9_]+(?=\\[|\\)|\\s|;|=|<|>|!|\\?>)",
+				name: "variable.other.php" 
+			},{
 				include: "orion.c-like"
-			}, {
+			},{
 				match: "(?i)<\\?(?:=|php)?(?:\\s|$)",
 				name: "entity.name.declaration.php",
 			}, {
