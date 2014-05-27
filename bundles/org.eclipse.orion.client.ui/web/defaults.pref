@@ -17,6 +17,8 @@
 		"plugins/languages/ruby/rubyPlugin.html":true,
 		"plugins/languages/xml/xmlPlugin.html":true,
 		"plugins/languages/yaml/yamlPlugin.html":true,
+		"plugins/languages/xquery/xqueryPlugin.html":true,
+		"plugins/languages/erlang/erlangPlugin.html":true,
 		"plugins/pageLinksPlugin.html":true,
 		"plugins/preferencesPlugin.html":true,
 		"plugins/taskPlugin.html": true,
